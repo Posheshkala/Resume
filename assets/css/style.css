@@ -168,7 +168,7 @@ overflow-y:auto;
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 1200px;
 }
 
 #hero h1 {
@@ -182,7 +182,7 @@ overflow-y:auto;
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 28px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -195,12 +195,14 @@ overflow-y:auto;
 
 #main {
   margin-right: 300px;
+
 }
 
 
 section {
   padding: 60px 0;
   overflow: hidden;
+direction:rtl;
 }
 
 .section-bg {
@@ -209,6 +211,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+ 
 }
 
 .section-title h2 {
@@ -224,11 +227,11 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 
 .section-title p {
@@ -287,7 +290,7 @@ section {
   display: block;
   font-size: 44px;
   color: #149ddd;
-  float: left;
+  float: right;
   line-height: 0;
 }
 
@@ -297,8 +300,9 @@ section {
   display: block;
   font-weight: 700;
   color: #050d18;
-  margin-left: 60px;
+  margin-right: 80px;
 }
+
 
 .facts .count-box p {
   padding: 15px 0 0 0;
@@ -323,7 +327,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -343,7 +347,7 @@ section {
 }
 
 .skills .progress .skill .val {
-  float: right;
+  float: left;
   font-style: normal;
 }
 
