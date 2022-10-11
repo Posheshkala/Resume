@@ -24,6 +24,12 @@ color:#242424;
   transition: all 0.4s;
 }
 
+.back-to-top {
+ left: 70px;
+ bottom: 90px;
+ z-index: 9999999;
+}
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
